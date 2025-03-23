@@ -1,0 +1,12 @@
+# Install htop : htop is a command-line tool for monitoring system resources such as CPU and memory usage.
+sudo apt install htop
+
+# Install Google Cloud SDK
+sudo apt install google-cloud-sdk
+
+# Authenticate the SDK, Authenticate using the service account key you generated earlier. This command authenticates your local VM with GCP using the service account's credentials.
+gcloud auth activate-service-account --key-file=/path/to/your/service-account-key.json
+
+# Set the Active Project: Make sure you set the GCP project to the one you created.
+gcloud config set project vcc-assign-3
+
